@@ -1,27 +1,31 @@
-*{
+/* Resetting default margin and padding, setting font family */
+* {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
 }
 
-header{
+/* Styling for the header section with a background image */
+header {
     background-image: url(../1.jpeg);
     height: 100vh;
     background-size: cover;
     background-position: center;
 }
 
-ul{
+/* Styling for the navigation menu */
+ul {
     float: right;
     list-style-type: none;
     margin-top: 25px;
 }
 
-ul li{
-    display: inline-block
+ul li {
+    display: inline-block;
 }
 
-ul li a{
+/* Styling for the navigation links */
+ul li a {
     text-decoration: none;
     color: white;
     padding: 5px 20px;
@@ -29,35 +33,40 @@ ul li a{
     transition: 0.6s ease;
 }
 
-ul li a:hover{
+ul li a:hover {
     background-color: white;
     color: #000;
 }
 
-ul li.active a{
+/* Styling for the active link in the navigation menu */
+ul li.active a {
     background-color: #fff;
     color: #000;
 }
 
-.logo img{
+/* Styling for the logo image */
+.logo img {
     float: left;
     width: 300px;
     height: auto;
 }
 
-.main{
+/* Styling for the main content section */
+.main {
     max-width: 1200px;
     margin: auto;
 }
 
-.button{
+/* Styling for the buttons in the main content section */
+.button {
     position: absolute;
     top: 80%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 }
 
-.btn{
+/* Styling for the buttons */
+.btn {
     border: 1px solid #fff;
     padding: 10px 30px;
     color: #fff;
@@ -65,11 +74,12 @@ ul li.active a{
     transition: 0.6s ease;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #fff;
-    color:#000;
+    color: #000;
 }
 
+/* Styling for the text section in the main content */
 .text-section {
     text-align: center;
     color: #fff;
@@ -79,11 +89,13 @@ ul li.active a{
     transform: translate(-50%, -50%);
 }
 
+/* Styling for the heading in the text section */
 h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
+/* Styling for the subtext in the text section */
 .subtext {
     font-size: 18px;
     max-width: 600px;
